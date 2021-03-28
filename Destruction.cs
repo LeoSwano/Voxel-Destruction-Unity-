@@ -19,8 +19,6 @@ public class Destruction : MonoBehaviour
 		cubeHeight = transform.localScale.y;
 		cubeDepth = transform.localScale.x;
 
-		
-
 		gameObject.GetComponent<MeshRenderer>().enabled = false;
 		mesh.gameObject.GetComponent<Transform>().localScale = new Vector3(cubeScale, cubeScale, cubeScale);
 		
